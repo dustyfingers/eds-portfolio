@@ -2,15 +2,15 @@
 // footer styles
 #Footer {
   background-color: $primary;
+  color: $light;
   .footer-text {
     cursor: default;
     font-size: 0.75rem;
 
     .linkedin-link {
-      color: $secondary !important;
-
+      color: $light;
       &:hover {
-        color: $success !important;
+        color: $secondary !important;
       }
     }
   }

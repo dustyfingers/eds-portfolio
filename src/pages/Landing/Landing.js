@@ -10,7 +10,7 @@ const Landing = () => (
     <div className="landing-cta-section mx-auto">
         <div className="landing-content">
             <h1 className="display-1 hi-tagline">Hi!</h1>
-            <h4 className="display-1 name-tagline">I'm Louie.</h4>
+            <h4 className="display-1 name-tagline">I'm Edward.</h4>
             <p className="personal-summary">
                 I'm a full stack software developer with a passion for learning about cutting
                 edge technology. When I'm not building user-oriented software solutions you can find me at the
@@ -21,14 +21,9 @@ const Landing = () => (
 
         {/* call to action links */}
         <div>
-            <Link to="/portfolio">
-                <button className="btn btn-lg cta-btn my-2 mx-3">
-                    My Portfolio
-                </button>
-            </Link>
             <Link to="/resume">
                 <button className="btn btn-lg cta-btn my-2 mx-3">
-                    My Resume
+                    Look At My Resume
                 </button>
             </Link>
         </div>

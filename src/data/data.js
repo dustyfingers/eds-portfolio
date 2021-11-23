@@ -1,7 +1,7 @@
 const resumeData = {
     contact: [
         {
-            link: "mailto:thereallouiew@gmail.com?subject=Let's%20work%20together!",
+            link: "mailto:therealEdwardw@gmail.com?subject=Let's%20work%20together!",
             iconLink: "/images/contact-icons/email.svg",
             alt: "email icon"
         },
@@ -11,7 +11,7 @@ const resumeData = {
             alt: "github icon"
         },
         {
-            link: "https://www.linkedin.com/in/louie-williford/",
+            link: "https://www.linkedin.com/in/Edward-williford/",
             iconLink: "/images/contact-icons/linkedin.svg",
             alt: "linkedin icon"
         }
@@ -38,14 +38,14 @@ const resumeData = {
     ],
     projects: [
         {
-            title: "louiemadeit Beat Store (under construction!)",
+            title: "Edwardmadeit Beat Store (under construction!)",
             desc:
                 "I designed, built, tested and deployed this application in it's entirety. The front end is built using React + Redux and Bootstrap 5, and is hosted using AWS Amplify. I built the backend with Node.js/Express + MongoDB, and AWS S3 for file storage. The backend is hosted on Heroku.",
             image: "/images/project-images/beat-store-screencap.png",
             showSiteLink: true,
-            siteLink: "https://dev.louiemadeit.com",
+            siteLink: "https://dev.Edwardmadeit.com",
             showRepoLink: true,
-            repoLink: "https://github.com/dustyfingers/louiemadeit-be",
+            repoLink: "https://github.com/dustyfingers/Edwardmadeit-be",
             tags: [
                 "Full Stack Development",
                 "JavaScript",

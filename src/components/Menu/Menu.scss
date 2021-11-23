@@ -4,16 +4,16 @@
   background-color: $primary;
 
   .navbar-toggler {
-    color: $secondary;
-    border-color: $secondary;
+    color: $light;
+    border-color: $light;
   }
 
   .nav-link {
     cursor: pointer;
-    color: $secondary;
+    color: $light;
 
     &:hover {
-      color: $success;
+      color: $secondary;
     }
   }
 }

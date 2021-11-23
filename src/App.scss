@@ -5,11 +5,11 @@
 // global theming
 #AppContainer {
   min-height: 100vh;
-  background: $primary;
-  color: $light;
+  background: $light;
+  color: $primary;
   a {
     text-decoration: none;
-    color: $light;
+    color: $primary;
   }
 
   h1,
@@ -27,14 +27,14 @@
   }
 
   .cta-btn {
-    color: $secondary !important;
+    color: $primary !important;
     background-color: rgba(0, 0, 0, 0);
-    border: 1px solid $secondary !important;
+    border: 1px solid $primary !important;
     border-radius: 0%;
     &:hover {
       background-color: rgba(0, 0, 0, 0) !important;
-      color: $success !important;
-      border-color: $success !important;
+      color: $secondary !important;
+      border-color: $secondary !important;
     }
   }
 

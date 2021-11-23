@@ -13,7 +13,7 @@ const Resume = () => (
     <section id="ResumeSection" className="main-section pb-2">
         {/* name/title section */}
         <div className="text-center px-5 pb-5">
-            <h1 className="display-1">Louie Williford</h1>
+            <h1 className="display-1">Edward Williford</h1>
             <p>Jr. Web Application Developer</p>
         </div>
 
@@ -55,7 +55,7 @@ const Resume = () => (
             <div className="d-flex py-2">
                 {contact.map(({...props}, idx) => <ContactIcon {...props} key={`contact-item-${idx}`} />)}
             </div>
-            <a href="https://louies-resume.s3.us-east-2.amazonaws.com/Louie-Williford.pdf" target="_blank" rel="noreferrer" type="button" className="btn btn-lg cta-btn my-2 mx-3">Download my Resume!</a>
+            <a href="https://Edwards-resume.s3.us-east-2.amazonaws.com/Edward-Williford.pdf" target="_blank" rel="noreferrer" type="button" className="btn btn-lg cta-btn my-2 mx-3">Download my Resume!</a>
         </div>
   </section>
 );

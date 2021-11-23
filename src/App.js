@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // import pages and components
 import Landing from './pages/Landing/Landing';
-import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
 import Menu from './components/Menu/Menu';
 import Footer from './components/Footer/Footer';
@@ -18,7 +17,6 @@ const App = () => {
                 <main className='container' id='PageContainer'>
                     <Switch>
                         <Route exact path='/' component={Landing} />
-                        <Route path='/portfolio' component={Portfolio} />
                         <Route path='/resume' component={Resume} />
                     </Switch>
                 </main>
